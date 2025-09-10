@@ -1,5 +1,37 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  background-color: #ffdbbb;
   text-align: center;
+}
+
+.link {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.link li {
+  flex: 1 1 200px;
+  max-width: 250px;
+  color: #000;
+  background-color: #a9846a;
+  border: 2px solid #000000;
+  border-radius: 8px; /*makes edges curved*/
+  text-align: center;
+  padding: 25px;
+}
+
+.link li:hover {
+  background-color: #ffecc6;
+  /*background-color: #e2ccb5;*/
+}
+
+.link a {
+  color: #000;
+  font-size: 24px;
 }
