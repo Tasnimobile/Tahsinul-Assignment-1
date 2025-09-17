@@ -1,0 +1,15 @@
+body {
+  /* font-family: papyrus, georgia, copperplate, courier new; */
+  background-color: #767474dd;
+  text-align: center;
+}
+
+.main-text {
+    max-width: 585px;
+    margin: 0 auto; /* center the div itself */
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center; /* center the text */
+    font-family: monaco, georgia;
+}
